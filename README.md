@@ -1,4 +1,4 @@
-****Stock-Prediction---Time-Series-Analysis****
+# Stock Price Prediction
 
 
 ****Overview****
