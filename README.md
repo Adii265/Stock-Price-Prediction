@@ -11,6 +11,7 @@ This project involves analyzing time series data using Long Short-Term Memory (L
 a. Time series data (df_close_series) is preprocessed and scaled using MinMaxScaler.
 b. Seasonal decomposition is performed to extract seasonal, trend, and residual components.
 c. Stationarity is check using Dicky-Fller Test.
+
 **2. Models Evaluated**
 a. LSTM without Seasonality:
 Lookback = 1, Threshold = 0
@@ -18,6 +19,7 @@ Lookback = 4, Threshold = 7
 b. LSTM with Seasonality:
 Lookback = 1, Threshold = 7
 Lookback = 4, Threshold = 7
+
 **3. Performance Metrics**
 Mean Absolute Error (MAE) is calculated for both training and testing datasets.
 
