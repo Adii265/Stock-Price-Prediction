@@ -44,6 +44,10 @@ Shows signs of overfitting.
 Improved generalization compared to no seasonality, with close train and test errors.
 Balances short-term and seasonal patterns well, but overall higher MAE than the simplest model.
 
+
+****Conclusion****
+LSTM with No Seasonality works best for capturing short-term dependencies with minimal complexity.
+
 ****Files****
 
 Amazon.csv - Dataset of Amazon stocks
